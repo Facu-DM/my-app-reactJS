@@ -1,0 +1,10 @@
+.Mensajes .jumbotron {
+    background-color: blue;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Mensajes hr {
+    background-color: white;
+}
