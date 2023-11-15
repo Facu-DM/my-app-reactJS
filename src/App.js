@@ -10,9 +10,11 @@ function App() {
           <h1>Mi Proyecto React JS</h1>
           <br />
 
-          <Mensajes titulo='Mensaje Nro. 1' color='green'/>
-          <Mensajes titulo='Mensaje Nro. 2' color='orangeded'/>
-          <Mensajes titulo='Mensaje Nro. 3' color='blueviolet'/>
+          <div className="row">
+            <div className="col-4"><Mensajes titulo='Mensaje Nro. 1' color='green'/></div>
+            <div className="col-4"><Mensajes titulo='Mensaje Nro. 2' color='orangered'/></div>
+            <div className="col-4"><Mensajes titulo='Mensaje Nro. 3' color='blueviolet'/></div>
+          </div>          
         </div>
       </div>
     </div>
