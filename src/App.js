@@ -1,4 +1,5 @@
 import "./App.css";
+import Contador from "./Componentes/Contador";
 
 import Mensajes from "./Componentes/Mensajes";
 
@@ -14,7 +15,11 @@ function App() {
             <div className="col-4"><Mensajes titulo='Mensaje Nro. 1' color='green'/></div>
             <div className="col-4"><Mensajes titulo='Mensaje Nro. 2' color='orangered'/></div>
             <div className="col-4"><Mensajes titulo='Mensaje Nro. 3' color='blueviolet'/></div>
-          </div>          
+          </div>
+          <br/>
+            
+            <Contador id="1" color="crimson"/>
+            <Contador id="2" color="black"/>          
         </div>
       </div>
     </div>
