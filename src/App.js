@@ -10,7 +10,6 @@ function App() {
         <div className="jumbotron">
           <h1>Mi Proyecto React JS</h1>
           <br />
-
           <div className="row">
             <div className="col-4"><Mensajes titulo='Mensaje Nro. 1' color='green'/></div>
             <div className="col-4"><Mensajes titulo='Mensaje Nro. 2' color='orangered'/></div>
@@ -18,8 +17,8 @@ function App() {
           </div>
           <br/>
             
-            <Contador id="1" color="crimson"/>
-            <Contador id="2" color="black"/>          
+            <Contador id="1" color="crimson" ini={123}/>
+            <Contador id="2" color="black" ini={456}/>          
         </div>
       </div>
     </div>
