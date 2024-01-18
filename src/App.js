@@ -17,8 +17,8 @@ function App() {
           </div>
           <br/>
             
-            <Contador id="1" color="crimson" ini={123}/>
-            <Contador id="2" color="black" ini={456}/>          
+            <Contador id="1" color="crimson" ini={123} ini2={321}/>
+            <Contador id="2" color="black" ini={456} ini2={654}/>          
         </div>
       </div>
     </div>
